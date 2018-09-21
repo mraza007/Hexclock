@@ -1,0 +1,18 @@
+{
+ "manifest_version": 2,
+ "name": "BG Clock",
+ "description": "It's a simple clock that changes color.",
+ "version": "1.0",
+ "author": "Muhammad",
+
+"browser_action": {
+   "default_icon": "time.png",
+   "default_title": "Make Every Moment Count"
+ },
+
+"chrome_url_overrides" : {
+  "newtab": "hexclock.html"
+},
+
+ "permissions": ["activeTab"]
+}
